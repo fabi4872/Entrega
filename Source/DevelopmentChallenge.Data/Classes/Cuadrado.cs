@@ -9,6 +9,11 @@ namespace DevelopmentChallenge.Data.Classes
 {
     public class Cuadrado : FormaGeometrica
     {
+        public Cuadrado()
+        {
+            
+        }
+
         public Cuadrado(int tipo, decimal ancho) : base(tipo, ancho)
         {
             Tipo = tipo;

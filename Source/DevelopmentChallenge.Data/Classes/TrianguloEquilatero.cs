@@ -8,6 +8,11 @@ namespace DevelopmentChallenge.Data.Classes
 {
     public class TrianguloEquilatero : FormaGeometrica
     {
+        public TrianguloEquilatero()
+        {
+            
+        }
+
         public TrianguloEquilatero(int tipo, decimal ancho) : base(tipo, ancho)
         {
             Tipo = tipo;

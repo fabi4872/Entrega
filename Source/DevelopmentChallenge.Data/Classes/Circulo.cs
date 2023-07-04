@@ -8,6 +8,11 @@ namespace DevelopmentChallenge.Data.Classes
 {
     public class Circulo : FormaGeometrica
     {
+        public Circulo()
+        {
+            
+        }
+
         public Circulo(int tipo, decimal ancho) : base(tipo, ancho)
         {
             Tipo = tipo;
